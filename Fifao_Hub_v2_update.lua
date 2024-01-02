@@ -16,9 +16,9 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Main = Window:AddTab({ Title = "Main Farm", Icon = "home" }),
     Setting = Window:AddTab({ Title = "Setting Farming", Icon = "cog" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "list" }),
+    Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
     Player = Window:AddTab({ Title = "Player", Icon = "smile" }),
-    Teleport = Window:AddTab({ Title = "Travel", Icon = "palmtree" }),
+    Teleport = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
     Fruit = Window:AddTab({ Title = "Devil Fruit", Icon = "cherry" }),
     Raid = Window:AddTab({ Title = "Raid", Icon = "swords" }),
     Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
